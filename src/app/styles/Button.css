@@ -1,0 +1,12 @@
+.primary-button {
+  background-color: orange;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+}
+
+.primary-button:hover {
+  background-color: var(--white);
+  color: var(--bg-color);
+}

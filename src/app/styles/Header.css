@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  padding: 1rem;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.header-hamster {
+  display: block; /* Ensures the image is a block element */
+  margin: auto;
+  width: 100%;
+  object-fit: cover;
+  max-width: 400px;
+}
